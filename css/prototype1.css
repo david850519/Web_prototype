@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	font-family:"Microsoft JhengHei";
+
+}
+.header{
+	height: 150px;
+}
+
+.logo{
+	margin: 20px;
+}
+
+#logo{
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+
+.title{
+	width: 700px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.catebar{
+	width: 700px;
+	float: left;
+	
+	margin-left: 30px;
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	line-height: 45px;
+}
+select{
+	width: 130px;
+	height: 40px;
+	float: left;
+	margin:0px 20px 0px 10px; 	
+}
+
+.input{
+	width: 160px;
+	height: 30px;
+	float: left;
+	margin:0px 20px 0px 10px; 	
+
+	border: 1px solid;
+	border-color: #BEBEBE;
+	padding: 5px;
+	color: #BEBEBE;
+}
+
+.side{
+	width: 250px;
+	float: left;
+	margin: 20px;
+}
+
+.main{
+	width: 660px;
+	float: left;
+	margin-top: 20px;
+	border: 1px solid black;	
+	padding: 20px;
+}
+.member{
+	border: 1px solid black;
+	height: 250px;
+}
+.moneyrate ,.trans{
+	border: 1px solid black;
+	height: 100px;
+}
+.fbclub{
+	border: 1px solid black;
+	height: 200px;
+}
+.member, .moneyrate, .trans, .fbclub{
+	margin-bottom: 10px;
+
+}
+.goods1, .goods2 ,.goods3{
+	float: left;
+	width: 650px;
+	margin-bottom: 30px;
+	clear:both;
+	border-bottom: 1px solid black;
+	
+	
+}
+
+.goods_detail{
+	float: left;
+	width: 500px;
+	margin-bottom: 50px;
+}
+.chinese, .eng ,.price{
+	font-size: 30px;
+	width: 300px;
+	padding: 10px;
+	float: left;
+	padding-bottom: 5px;
+
+}
+.eng{
+	font-size: 20px;
+	margin-left: 30px;
+	padding: 0px ;
+	padding-left: 20px;
+}
+.price{
+	width: 50px;
+	float: left;
+	font-size: 20px;
+}
+.compare{
+	float: left;
+	padding-top: 20px;
+	margin-left: 30px;
+	
+	padding-left: 20px;
+}
+#top{
+	float: left;
+	height: 32px;
+	width: 32px;
+}
+
+h2{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+#a1{
+	width: 150px;
+	height: 120px;
+	float: left;
+	margin-bottom: 5px;
+}
+.goods_pic{
+	float: left;
+	width: 150px;
+}
+.star, .estar{
+	margin-right: 5px;
+	float: left;
+}
+
+.brands{
+	clear:both;
+	
+	
+}
+
+.brandlist{ 
+	color: #000;
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	width: 140px;
+	border-width: 3px;
+	border-style:solid ;
+	border-color: orange;
+	margin: 15px;
+	text-align: center;
+	padding: 10px;
+	color: orange;
+	float: left;
+
+}
+
+.brandlist:hover{
+	background: orange;
+	color: #fff;
+
+}
+.footer{
+	clear:both;
+	padding: 50px;
+	
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}

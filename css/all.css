@@ -1,0 +1,26 @@
+/*標籤 1>類別 10 >id 100 >inline style 1000> !important 10000*/
+h1{
+	color: #FFFFFF;
+	background: gray;
+	font-size : 70px;
+}
+body{
+	background: #6FB7B7	;
+}
+p{
+	font-family: Microsoft JhengHei;
+	
+}
+
+.p1{
+	color: #FFFFFF;
+	font-size : 30px;
+}
+.p2{
+	color: #930000	;
+	font-size: 30px;
+}
+.p3{
+	color: #6F00D2;
+	font-size: 30px;
+}

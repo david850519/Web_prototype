@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	font-family:"Microsoft JhengHei";
+
+}
+
+.header{
+	height: 150px;
+}
+
+.logo{
+	margin: 20px;
+}
+
+#logo{
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+
+.title{
+	width: 700px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.catebar{
+	width: 700px;
+	float: left;
+	
+	margin-left: 30px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	line-height: 45px;
+}
+select{
+	width: 130px;
+	height: 40px;
+	float: left;
+	margin:0px 20px 0px 10px; 	
+}
+.input{
+	width: 160px;
+	height: 30px;
+	float: left;
+	margin:0px 20px 0px 10px; 	
+
+	border: 1px solid;
+	border-color: #BEBEBE;
+	padding: 5px;
+	color: #BEBEBE;
+}
+
+.searchresult{
+	margin-top: 20px;
+	font-size:24px;
+
+}
+
+.item{
+	margin-top: 30px;
+	width: 960px;
+	height: 900px;
+}
+
+.itemtop{
+	height: 300px;
+	width: 960px;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.itemmid{
+	height: 300px;
+	width: 960px;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.itembot{
+	height: 300px;
+	width: 960px;
+}
+
+.itempic{
+	float:left;
+	width: 350px;
+	padding:30px;
+}
+
+.star{
+	margin-top: 20px;
+	padding-left:5px;
+}
+
+.star img{
+	padding-right: 5px;
+}
+
+.itemdes{
+	float:left;
+	width: 450px;
+}
+
+.itemdes a{
+	text-decoration: none;
+	color:black;
+	display: block;
+	padding: 30px;
+}
+
+.itemdes a:hover{
+	color:red;
+}
+
+.itemdes h2{
+	font-size: 20px;
+	font-style: bold;
+}
+
+.compare{
+	float:left;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.otherprice{
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.price{
+	margin-top: 40px;
+	font-size: 28px;
+}
+.price span{
+	color: red;
+}
+
+.page{
+	width: 960px;
+	height: 50px;
+	padding-left: 400px;
+}
+
+
+.page a{
+	float:left;
+	padding-right: 2px;
+}
